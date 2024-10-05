@@ -7,25 +7,37 @@ body {
 header {
     background-color: #ddd;
     padding: 10px;
-    text-align: center;
+    text-align: left;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
 }
 
 nav {
     display: flex;
-    justify-content: center;
-    background-color: #f4f4f4;
+    gap: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: #333;
-    padding: 10px 20px;
-    margin: 5px;
+    padding: 10px;
+    margin: 0;
     border-radius: 5px;
 }
 
 nav a:hover {
     background-color: #ccc;
+}
+
+.profile-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .container {
@@ -39,6 +51,13 @@ nav a:hover {
     background-color: white;
     border: 1px solid #ccc;
     padding: 10px;
+    margin-bottom: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
 }
 
@@ -59,6 +78,7 @@ nav a:hover {
 .post-date {
     font-size: 12px;
     color: #777;
+    text-align: end;
 }
 
 .like {
