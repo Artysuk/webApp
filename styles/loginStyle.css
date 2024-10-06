@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-#navigationBar {
+nav {
     width: 100%;
     height: 3rem;
     background-color: #5680E9;
@@ -16,8 +16,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.button a {
+nav a {
     text-decoration: none;
     color: white;
     margin: 5px;
@@ -27,12 +26,11 @@ body {
     font-weight: bold;
 }
 
-.button a:hover {
+nav a:hover {
     background-color: #5AB9EA;
     color: white;
 }
-
-.addPostContainer {
+.Login {
     margin-top: 50px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8);
@@ -42,33 +40,33 @@ body {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(10px);
     border: 1px solid #C1C8E4;
+    text-align: center;
+
 }
 
-.addPostContainer form div {
-    margin-bottom: 20px;
+.Loginbutton{
+ 
+        background-color: #8860D0;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        margin: 8px 0;
+    
+    
+    
 }
-
-#postBody {
-    padding: 10px;
-    border-radius: 8px;
-    border: 2px solid #5AB9EA;
-    font-family: inherit;
-    font-size: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.postButton {
-    background-color: #8860D0;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.postButton:hover {
+.Loginbutton:hover {
     background-color: #5680E9;
 }
+
+
+
+input [type=text], input[type=password]{
+   margin: 8px 0;
+}
+
