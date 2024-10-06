@@ -1,3 +1,4 @@
+/* General body styling */
 body {
     font-family: 'Segoe UI';
     margin: 0;
@@ -6,56 +7,78 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #ddd;
-    padding: 10px;
-    text-align: left;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 20px;
-}
-
+/* Navbar styling */
 nav {
+    width: 100%;
+    height: 3rem;
+    background-color: #5680E9;
     display: flex;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
 }
 
+/* Left side of the navbar for Home and Add Post buttons */
+.nav-left {
+    display: flex;
+    gap: 10px; /* Adds space between the Home and Add Post buttons */
+}
+
+/* Right side of the navbar for the profile icon */
+.nav-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+/* Navbar link styling */
 nav a {
     text-decoration: none;
-    color: #333;
-    padding: 10px;
-    margin: 0;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
     border-radius: 5px;
+    background-color: #84CEEB;
+    font-weight: bold;
 }
 
+/* Hover effect for navbar links */
 nav a:hover {
-    background-color: #ccc;
+    background-color: #5AB9EA;
+    color: white;
 }
 
-.profile-icon img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+/* Profile icon styling */
+.profile-icon {
+    font-size: 1.5rem; /* Adjust size of the profile icon */
+    color: white;
 }
 
+/* Container for posts */
 .container {
     width: 80%;
     margin: auto;
-    background-color: #f4f4f4;
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid #C1C8E4;
 }
 
+/* Individual post styling */
 .post {
-    background-color: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #C1C8E4;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Post header styling */
 .post-header {
     display: flex;
     justify-content: space-between;
@@ -63,27 +86,40 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+/* Image inside posts */
 .post img {
     max-width: 100%;
     height: auto;
+    border-radius: 10px;
 }
 
+/* Footer styling */
 .footer {
-    background-color: #ddd;
+    background-color: #5680E9;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    color: white;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Post date styling */
 .post-date {
     font-size: 12px;
     color: #777;
     text-align: end;
 }
 
+/* Like button styling */
 .like {
     color: #007bff;
     cursor: pointer;
+}
+
+/* Icon inside post header */
+.post-header i {
+    color: #007bff;
+    font-size: 1.5rem;
 }
