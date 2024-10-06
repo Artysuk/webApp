@@ -1,61 +1,74 @@
-/* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #5680E9, #5AB9EA, #C1C8E4);
+    color: #333;
 }
 
-/* Navigation bar */
 #navigationBar {
     width: 100%;
     height: 3rem;
-    background-color: rgb(216, 183, 183);
+    background-color: #5680E9;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Button styling in navbar */
 .button a {
     text-decoration: none;
-    color: #333;
+    color: white;
     margin: 5px;
     padding: 10px 20px;
     border-radius: 5px;
+    background-color: #84CEEB;
+    font-weight: bold;
 }
 
-/* Hover effect for navigation buttons */
 .button a:hover {
-    background-color: #ccc;
+    background-color: #5AB9EA;
+    color: white;
 }
 
-/* Add Post container */
 .addPostContainer {
     margin-top: 50px;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: rgba(255, 255, 255, 0.8);
     width: 60%;
     margin: 50px auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid #C1C8E4;
 }
 
-/* Styling for form elements */
 .addPostContainer form div {
     margin-bottom: 20px;
 }
 
-/* Button styling */
+#postBody {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #5AB9EA;
+    font-family: inherit;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .postButton {
-    background-color: #0044cc;
+    background-color: #8860D0;
     color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .postButton:hover {
-    background-color: #003399;
+    background-color: #5680E9;
 }
