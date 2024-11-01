@@ -31,6 +31,7 @@ nav {
     display: flex;
     align-items: center;
     padding-right: 20px;
+    position: relative;
 }
 
 
@@ -122,4 +123,31 @@ nav a:hover {
 .post-header i {
     color: #007bff;
     font-size: 1.5rem;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    width: 150px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-menu p,
+.dropdown-menu a {
+    margin: 10px 0;
+}
+
+.logout {
+    color: #333;
+    text-decoration: none;
+}
+.logout:hover {
+    text-decoration: underline;
 }

@@ -1,0 +1,62 @@
+[
+    {
+        "date": "Oct 22, 2022",
+        "author": "User1",
+        "content": "Tartu 2022",
+        "image": "tartu2024.jpg"
+    },
+    {
+        "date": "Oct 2, 2022",
+        "author": "User2",
+        "content": "Anyone knows in which room is the lab today?",
+        "image": null
+    },
+    {
+        "date": "Sep 15, 2022",
+        "author": "User3",
+        "content": "Excited for the coding competition next week!",
+        "image": null
+    },
+    {
+        "date": "Sep 10, 2022",
+        "author": "User4",
+        "content": "What a beautiful day in Tartu today!",
+        "image": null
+    },
+    {
+        "date": "Aug 30, 2022",
+        "author": "User5",
+        "content": "Can anyone recommend good places to study in Tartu?",
+        "image": null
+    },
+    {
+        "date": "Aug 15, 2022",
+        "author": "User6",
+        "content": "Just finished a great workout session!",
+        "image": null
+    },
+    {
+        "date": "Aug 10, 2022",
+        "author": "User7",
+        "content": "Loving the new cafe that opened downtown.",
+        "image": null
+    },
+    {
+        "date": "Jul 25, 2022",
+        "author": "User8",
+        "content": "Does anyone have lecture notes for last week's class?",
+        "image": null
+    },
+    {
+        "date": "Jul 15, 2022",
+        "author": "User9",
+        "content": "Caught a beautiful sunset by the river today!",
+        "image": null
+    },
+    {
+        "date": "Jul 1, 2022",
+        "author": "User10",
+        "content": "Looking forward to the weekend camping trip!",
+        "image": null
+    }
+]

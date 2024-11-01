@@ -12,6 +12,7 @@
 
 </head>
 <body>
+    
 
 
     <nav>
@@ -20,64 +21,25 @@
             <a href="addPost.html">Add Post</a>
         </div>
         <div class="nav-right">
-            <a href="#">
+            <a href="#" class="profile-link">
                 <i class="fa-solid fa-user profile-icon"></i>
             </a>
+            <div class="dropdown-menu" id="profileDropdown">
+                <p>John Doe</p>
+                <p>john.doe@ut.ee</p>
+                <a href="#" class="logout">Logout</a>
+            </div>
         </div>
     </nav>
 
-    <div class="container">
-        <!-- Five different posts -->
-        <div class="post">
-            <div class="post-header">
-            <i class="fa-solid fa-user"></i>
-            <p class="post-date">Oct 22, 2022</p>
-        </div>
-            <img src="tartu2024.jpg" alt="Tartu 2024">
-            <p>Tartu 2022</p>
-            <span class="like">👍</span>
-        </div>
-
-        <div class="post">
-            <div class="post-header">
-            <i class="fa-solid fa-user"></i>
-            <p class="post-date">Oct 2, 2022</p>
-        </div>
-            <p>Anyone knows in which room is the lab today?</p>
-            <span class="like">👍</span>
-        </div>
-
-        <div class="post">
-            <div class="post-header">
-            <i class="fa-solid fa-user"></i>
-            <p class="post-date">Sep 15, 2022</p>
-        </div>
-            <p>Excited for the coding competition next week!</p>
-            <span class="like">👍</span>
-        </div>
-
-        <div class="post">
-            <div class="post-header">
-            <i class="fa-solid fa-user"></i>
-            <p class="post-date">Sep 10, 2022</p>
-        </div>
-            <p>What a beautiful day in Tartu today!</p>
-            <span class="like">👍</span>
-        </div>
-
-        <div class="post">
-            <div class="post-header">
-            <i class="fa-solid fa-user"></i>
-            <p class="post-date">Aug 30, 2022</p>
-        </div>
-            <p>Can anyone recommend good places to study in Tartu?</p>
-            <span class="like">👍</span>
-        </div>
+    <div class="container" id="postContainer">
+       
     </div>
 
     <footer class="footer">
-        <p>Footer</p>
+        <p></p>
     </footer>
-
+<!-- Link to external JavaScript file -->
+<script src="main.js"></script>
 </body>
 </html>
