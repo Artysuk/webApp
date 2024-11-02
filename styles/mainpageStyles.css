@@ -1,10 +1,14 @@
 
 body {
     font-family: 'Segoe UI';
-    margin: 0;
+    margin: 0; 
     padding: 0;
-    background: linear-gradient(135deg, #5680E9, #5AB9EA, #C1C8E4);
+    background: linear-gradient(135deg, #5680E9, #5AB9EA, #C1C8E4, #a862ff, #9c61e3);
+    animation: gradient 10s ease infinite;
+    background-size: 400% 400%;
+    height: 100%;
     color: #333;
+
 }
 
 
@@ -106,6 +110,12 @@ nav a:hover {
     box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.poster-image{
+    border-radius: 50%;
+    width: 50rem;
+    height: 50rem;
+}
+
 
 .post-date {
     font-size: 12px;
@@ -150,4 +160,17 @@ nav a:hover {
 }
 .logout:hover {
     text-decoration: underline;
+}
+
+/* https://codepen.io/P1N2O/pen/pyBNzX */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
