@@ -35,8 +35,8 @@ fetch('https://api.jsonbin.io/v3/b/67268106ad19ca34f8c2f3f0') // makes a GET req
                 )
             ];
             
-            if (post.image) postDiv.appendChild(appendImage(post)); //If the image attribute is not null
             postDiv.appendChild(date);
+            if (post.image) postDiv.appendChild(appendImage(post)); //If the image attribute is not null
             postDiv.appendChild(content);
             postDiv.appendChild(like);
             postContainer.appendChild(postDiv);
